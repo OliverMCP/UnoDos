@@ -50,7 +50,6 @@ This project helped me practice and improve in multiple areas:
 ---
 
 ## Screenshots & Preview
-_Add your game previews here!_  
 
 Example:  
 

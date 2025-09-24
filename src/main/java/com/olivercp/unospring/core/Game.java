@@ -29,8 +29,8 @@ public class Game {
         Card topCard = context.getDiscardPile().getCurrentCard();
         Card chosenCard = currentPlayer.chooseCard(topCard);
 
-        if (handleWinCondition(currentPlayer)) return;
         if (handleGameOverCondition()) return;
+        if (handleWinCondition(currentPlayer)) return;
         if (handleDrawPenalty(currentPlayer, topCard)) return;
         if (handleColorChange()) return;
         if (handleVoluntaryDraw(currentPlayer)) return;

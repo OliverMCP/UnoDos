@@ -13,7 +13,7 @@ public class GameController {
     private final GameService gameService;
 
     // TODO:
-    // - add "Uno"-Post methode when Player has only one card
+    // - add "Uno"-Post method when Player has only one card
     // - implement "Say Uno" in Game Logic -> handleUnoCondition
 
     public GameController(GameService gameService) {

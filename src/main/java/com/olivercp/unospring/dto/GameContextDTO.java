@@ -2,6 +2,7 @@ package com.olivercp.unospring.dto;
 
 import com.olivercp.unospring.core.GameContext;
 import com.olivercp.unospring.core.model.players.AiPlayer;
+import com.olivercp.unospring.core.utils.Logger;
 import lombok.Getter;
 
 import java.util.ArrayList;
@@ -14,6 +15,7 @@ public class GameContextDTO {
     private boolean gameOver;
 
     public GameContextDTO(GameContext context) {
+
         this.players = context.getPlayers().stream()
                 .map(player -> new PlayerDTO(
                         player.getName(),

@@ -53,8 +53,7 @@ This project helped me practice and improve in multiple areas:
 
 Example:  
 
-![Game Screenshot](./screenshots/game.png)  
-![Demo GIF](./screenshots/demo.gif)  
+![Game Screenshot](./demo.png)  
 
 ---
 

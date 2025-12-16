@@ -8,7 +8,7 @@
 ---
 
 "UnoDos" is a **UNO-inspired web app** with some custom rules.  
-The backend is built with **Java (Spring Boot)**, while the frontend uses **React + Vite + Tailwind**.  
+The backend is built with **Java (Spring Boot)**, while the frontend uses **React + Vite + Tailwind**. (will be released soon) 
 
 I originally wanted to create it as a monolith desktop app with plain Java and Raylib. But switching to a web app made it not only easier to build (no need to reinvent a whole UI system), but also accessible to everyone – since many of my friends and family don’t even use a PC or laptop regularly.
 
